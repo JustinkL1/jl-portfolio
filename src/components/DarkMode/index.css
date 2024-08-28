@@ -1,0 +1,20 @@
+.dark-mode-button {
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+  backdrop-filter: blur(30px);
+  border-radius: 30px;
+}
+
+.dark-mode .dark-mode-button {
+  background-color: #121212;
+  border: 1px solid rgba(189, 189, 189, 0.349);
+  box-shadow: 0 8px 32px 0 rgba(114, 113, 113, 0.544);
+}
+
+.light-mode .dark-mode-button {
+  background-color: #ffffff;
+  border: 1px solid rgba(49, 46, 46, 0.339);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
