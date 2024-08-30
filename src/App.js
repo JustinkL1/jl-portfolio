@@ -10,7 +10,6 @@ import DarkMode from "./components/DarkMode";
 import "./App.css";
 
 function App() {
-  
   return (
     <Router>
       <div className="app-container">
@@ -19,11 +18,11 @@ function App() {
           <Navbar />
           <div className="app-main">
             <Routes>
-              <Route exact path="/" element={<HomePage />} />
-              <Route path="/about-me" element={<AboutMePage />} />
-              <Route path="/projects" element={<ProjectsPage />} />
-              <Route path="/projects-cadent" element={<CadentPage />} />
-              {/* <Route path="/projects-roadmap" element={<RoadMapPage />} /> */}
+              <Route exact path="/jl-portfolio" element={<HomePage />} />
+              <Route path="/jl-portfolio/about-me" element={<AboutMePage />} />
+              <Route path="/jl-portfolio/projects" element={<ProjectsPage />} />
+              <Route path="/jl-portfolio/projects-cadent" element={<CadentPage />} />
+              {/* <Route path="/jl-portfolio/projects-roadmap" element={<RoadMapPage />} /> */}
             </Routes>
           </div>
           <div className="app-footer">
