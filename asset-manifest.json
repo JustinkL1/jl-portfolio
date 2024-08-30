@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "./static/css/main.8621a107.css",
-    "main.js": "./static/js/main.a845b443.js",
-    "static/media/Cadent_Justin.mp4": "./static/media/Cadent_Justin.3da5716dd6aa65ac2b0d.mp4",
-    "static/media/linkedin.jpg": "./static/media/linkedin.c3fcb1cf4dc1a60c3264.jpg",
-    "static/media/Justin_Lam_Resume.pdf": "./static/media/Justin_Lam_Resume.5e29e2785504321a6afd.pdf",
-    "static/media/cadent.png": "./static/media/cadent.509ab4c2c8841035dfea.png",
-    "static/media/esurgi.png": "./static/media/esurgi.754a8a0135e156298e7e.png",
-    "static/media/jhu.png": "./static/media/jhu.097f5e41c87ebe15a702.png",
-    "static/media/mysql.svg": "./static/media/mysql.0b9bc0186525f731d3c8f5ade5f64deb.svg",
-    "static/media/react.svg": "./static/media/react.2a14de24aa5afe3322fa644a1c217fd8.svg",
-    "static/media/java.svg": "./static/media/java.65e4380863bb67e6a6248b238c7774be.svg",
-    "static/media/csharp.svg": "./static/media/csharp.93ba21ebf5c7f4e5fb94538c4c948fec.svg",
-    "static/media/c++.svg": "./static/media/c++.c2926ce8baf39e14b40727267dbfcd93.svg",
-    "static/media/python.svg": "./static/media/python.888cd80d31702f3cdaa2a0e2d56c436c.svg",
-    "static/media/javascript.svg": "./static/media/javascript.63b93412a24001eff2acc22e0cb40276.svg",
-    "static/media/firebase.svg": "./static/media/firebase.d770ed71d4d33ffa60f8cae9b7ba0350.svg",
-    "static/media/css.svg": "./static/media/css.d775a84d2e94cdab548cdffe1aa9ff83.svg",
-    "static/media/html.svg": "./static/media/html.51305ec564cee03372ec0fdaaa77854d.svg",
-    "static/media/c.svg": "./static/media/c.4d943a0cb2aae0c439363d64b64f92e7.svg",
-    "index.html": "./index.html",
-    "main.8621a107.css.map": "./static/css/main.8621a107.css.map",
-    "main.a845b443.js.map": "./static/js/main.a845b443.js.map"
+    "main.css": "/jl-portfolio/static/css/main.8621a107.css",
+    "main.js": "/jl-portfolio/static/js/main.e16cb92e.js",
+    "static/media/Cadent_Justin.mp4": "/jl-portfolio/static/media/Cadent_Justin.3da5716dd6aa65ac2b0d.mp4",
+    "static/media/linkedin.jpg": "/jl-portfolio/static/media/linkedin.c3fcb1cf4dc1a60c3264.jpg",
+    "static/media/Justin_Lam_Resume.pdf": "/jl-portfolio/static/media/Justin_Lam_Resume.5e29e2785504321a6afd.pdf",
+    "static/media/cadent.png": "/jl-portfolio/static/media/cadent.509ab4c2c8841035dfea.png",
+    "static/media/esurgi.png": "/jl-portfolio/static/media/esurgi.754a8a0135e156298e7e.png",
+    "static/media/jhu.png": "/jl-portfolio/static/media/jhu.097f5e41c87ebe15a702.png",
+    "static/media/mysql.svg": "/jl-portfolio/static/media/mysql.0b9bc0186525f731d3c8f5ade5f64deb.svg",
+    "static/media/react.svg": "/jl-portfolio/static/media/react.2a14de24aa5afe3322fa644a1c217fd8.svg",
+    "static/media/java.svg": "/jl-portfolio/static/media/java.65e4380863bb67e6a6248b238c7774be.svg",
+    "static/media/csharp.svg": "/jl-portfolio/static/media/csharp.93ba21ebf5c7f4e5fb94538c4c948fec.svg",
+    "static/media/c++.svg": "/jl-portfolio/static/media/c++.c2926ce8baf39e14b40727267dbfcd93.svg",
+    "static/media/python.svg": "/jl-portfolio/static/media/python.888cd80d31702f3cdaa2a0e2d56c436c.svg",
+    "static/media/javascript.svg": "/jl-portfolio/static/media/javascript.63b93412a24001eff2acc22e0cb40276.svg",
+    "static/media/firebase.svg": "/jl-portfolio/static/media/firebase.d770ed71d4d33ffa60f8cae9b7ba0350.svg",
+    "static/media/css.svg": "/jl-portfolio/static/media/css.d775a84d2e94cdab548cdffe1aa9ff83.svg",
+    "static/media/html.svg": "/jl-portfolio/static/media/html.51305ec564cee03372ec0fdaaa77854d.svg",
+    "static/media/c.svg": "/jl-portfolio/static/media/c.4d943a0cb2aae0c439363d64b64f92e7.svg",
+    "index.html": "/jl-portfolio/index.html",
+    "main.8621a107.css.map": "/jl-portfolio/static/css/main.8621a107.css.map",
+    "main.e16cb92e.js.map": "/jl-portfolio/static/js/main.e16cb92e.js.map"
   },
   "entrypoints": [
     "static/css/main.8621a107.css",
-    "static/js/main.a845b443.js"
+    "static/js/main.e16cb92e.js"
   ]
 }
