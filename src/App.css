@@ -1,11 +1,8 @@
 body, html{
-  height: 100%;
   margin: 0;
   padding: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;  
+  width: 100%;
+  height: 100%;
 }
 
 body {
@@ -26,21 +23,63 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  position: relative; 
+  padding-top: 6rem;
 }
 
+.app-left {
+  min-width: 300px; 
+  flex-shrink: 0; 
+  padding-top: 1rem;
+  position: fixed;
+  overflow: hidden;
+  z-index: 10;
+  transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode .app-left {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.light-mode .app-left{
+  background-color: #ffffff;
+  color: #000000;
+}
 .app-right {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
+.navbar {
+  width: 100%; 
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode .navbar {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.light-mode .navbar{
+  background-color: #ffffff;
+  color: #000000;
+}
+
 .app-main {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  margin-top: 3rem;
-  margin-right: 1rem;
+  margin-left: 400px;
+  flex-shrink: 0; 
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
 }
 
 .app-footer {
@@ -48,4 +87,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+html {
+  scroll-behavior: smooth;
 }

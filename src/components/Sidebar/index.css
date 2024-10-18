@@ -2,21 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 50rem;
-  padding: 3rem 5rem;
+  padding: 2rem 4rem;
   margin: 1rem;
-  overflow: hidden;
-  position: relative;
   border-radius: 20px;
 }
+
 .dark-mode .sidebar-container{
   border: 1px solid rgba(189, 189, 189, 0.349);
-  box-shadow: 0 8px 32px 0 rgba(114, 113, 113, 0.544);
+  box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
 }
 
 .light-mode .sidebar-container {
   border: 1px solid rgba(49, 46, 46, 0.339);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
 }
 
 .sidebar-header {
@@ -30,7 +28,6 @@
   border-bottom: 0.1rem solid #000000;
 }
 
-
 .profile-pic {
   width: 15rem;
   height: 15rem;
@@ -38,12 +35,12 @@
 }
 .dark-mode .profile-pic {
   border: 1px solid rgba(189, 189, 189, 0.349);
-  box-shadow: 0 8px 32px 0 rgba(114, 113, 113, 0.544);
+  box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
 }
 
 .light-mode .profile-pic{
   border: 1px solid rgba(49, 46, 46, 0.339);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
 }
 
 .name {
@@ -122,8 +119,8 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  position: absolute;
   bottom: 0;
+  margin-top: 4rem;
   margin-bottom: 1rem;
 }
 

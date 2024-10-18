@@ -2,12 +2,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 10px;
 }
 
 .about-me-main {
     display: flex;
     justify-content: space-around;
-    gap: 8rem;
+    gap: 6rem;
 }
 .about-me-pic {
   width: 80px;
@@ -22,12 +23,12 @@
 }
 .dark-mode .about-me-sections {
   border: 1px solid rgba(189, 189, 189, 0.349);
-  box-shadow: 0 8px 32px 0 rgba(114, 113, 113, 0.544);
+  box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
 }
 
 .light-mode .about-me-sections {
   border: 1px solid rgba(49, 46, 46, 0.339);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
 }
 .about-me-icon {
     font-size: 2rem;
@@ -41,7 +42,7 @@
 
 .about-me-education,
 .about-me-experience {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 .wave {
@@ -80,10 +81,10 @@ li {
 
 .dark-mode .skill-set-picture {
   border: 1px solid rgba(189, 189, 189, 0.349);
-  box-shadow: 0 8px 32px 0 rgba(114, 113, 113, 0.544);
+  box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
 }
 
 .light-mode .skill-set-picture {
   border: 1px solid rgba(49, 46, 46, 0.339);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
 }

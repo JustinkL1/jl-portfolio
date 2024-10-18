@@ -2,7 +2,7 @@ import video from "../../../../../assets/Cadent_Justin.mp4";
 import { useNavigate } from "react-router-dom";
 import "./index.css";
 
-function Cadent() {
+function Cadent({onBack}) {
   const navigate = useNavigate();
 
   return (
@@ -24,9 +24,9 @@ function Cadent() {
       <br />
       <button
         className="back-to-project-button"
-        onClick={() => navigate("/projects")}
+        onClick={onBack}
       >
-        back to projects
+        Back to Projects
       </button>
     </div>
   );

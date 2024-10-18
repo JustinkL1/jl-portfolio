@@ -23,10 +23,6 @@ import "./index.css";
 function AboutMe() {
   return (
     <div className="about-me-container">
-      <span className="about-me-welcome">
-        Hi I'm Justin Lam <span className="wave">👋</span>
-      </span>
-
       <div className="about-me-main">
         <div className="about-me-experience">
           <span className="about-me-header">

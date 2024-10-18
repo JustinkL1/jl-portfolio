@@ -1,39 +1,57 @@
 .navbar-container {
-  margin: 1rem;
+  padding-top: 10px;
+  padding-right: 15px; 
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  cursor: pointer;
 }
+
 .links {
   display: flex;
   border-radius: 20px;
+  font-weight: bolder;
   overflow: hidden;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
 }
-.dark-mode .links{
+
+.dark-mode .links {
   border: 1px solid rgba(189, 189, 189, 0.349);
-  box-shadow: 0 8px 32px 0 rgba(114, 113, 113, 0.544);
+  box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
 }
 
 .light-mode .links {
   border: 1px solid rgba(49, 46, 46, 0.339);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
 }
 
 .dark-mode .link-style {
   color: #ffffff;
+  transition: color 0.3s ease;
 }
 
 .light-mode .link-style {
   color: #000000;
+  transition: color 0.3s ease;
 }
 
 .link-style {
   text-decoration: none;
   font-size: 2rem;
   padding: 2rem;
+  display: inline-block;
+  transition: color 0.3s ease;
 }
 
-.active-link {
-  color: rgb(6, 129, 170); 
+.dark-mode .active-link {
+  color: rgb(6, 129, 170);
 }
 
+.light-mode .active-link {
+  color: rgb(6, 129, 170);
+}
+
+.link-style:hover {
+  background-color: rgb(6, 129, 170);
+  color: #000000;
+}
