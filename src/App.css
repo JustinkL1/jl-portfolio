@@ -72,6 +72,7 @@ body {
 .app-main {
   display: flex;
   flex-direction: column;
+  gap: 100vh;
   margin-left: 400px;
   flex-shrink: 0; 
 }

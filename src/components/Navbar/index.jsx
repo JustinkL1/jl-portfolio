@@ -9,14 +9,23 @@ function Navbar() {
     const handleScroll = () => {
       if (isScrolling) return;
 
-      const sections = ['home', 'about-me', 'projects'];
-      let currentSection = '';
+      const sections = ["home", "about-me", "projects"];
+      let currentSection = "";
 
-      sections.forEach(section => {
+      sections.forEach((section, index) => {
         const element = document.getElementById(section);
+        const nextElement = sections[index + 1]
+          ? document.getElementById(sections[index + 1])
+          : null;
+  
         if (element) {
           const rect = element.getBoundingClientRect();
-          if (rect.top >= 0 && rect.top < window.innerHeight / 2) {
+          const nextRect = nextElement ? nextElement.getBoundingClientRect() : null;
+  
+          if (
+            rect.top <= window.innerHeight * 0.5 &&
+            (!nextRect || nextRect.top > window.innerHeight * 0.5)
+          ) {
             currentSection = section;
           }
         }
@@ -25,8 +34,8 @@ function Navbar() {
       setActiveSection(currentSection);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [isScrolling]);
 
   const scrollToSection = (id) => {
@@ -35,9 +44,9 @@ function Navbar() {
       const navbarHeight = document.getElementById("navbar").offsetHeight;
       const top =
         section.getBoundingClientRect().top + window.scrollY - navbarHeight;
-      
+
       setIsScrolling(true);
-      window.scrollTo({ top, behavior: "smooth" }); 
+      window.scrollTo({ top, behavior: "smooth" });
 
       setTimeout(() => {
         setIsScrolling(false);
