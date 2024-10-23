@@ -1,15 +1,12 @@
 import video from "../../../../../assets/Cadent_Justin.mp4";
-import { useNavigate } from "react-router-dom";
 import "./index.css";
 
 function Cadent({onBack}) {
-  const navigate = useNavigate();
-
   return (
-    <div className="cadent-container">
-      <span className="cadent-header">Cadent Project - Unified Navigation Configuration</span>
+    <div className="project-container">
+      <span className="project-header">Cadent Project - Unified Navigation Configuration</span>
       <br />
-      <span className="cadent-description">
+      <span className="project-description">
         Developed a centralized configuration UI that offers various navigation
         configuration options, enabling teams to shape the navigation to their
         specific requirements. Independently built the project using React,
