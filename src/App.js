@@ -30,10 +30,9 @@ function App() {
             <DarkMode />
           </div>
         </div>
-
         <div className="navbar">
-            <Navbar />
-          </div>
+          <Navbar />
+        </div>
       </div>
     </Router>
   );

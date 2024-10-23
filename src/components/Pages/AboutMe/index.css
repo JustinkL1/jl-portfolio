@@ -10,6 +10,7 @@
     justify-content: space-around;
     gap: 6rem;
 }
+
 .about-me-pic {
   width: 80px;
   height: 80px;
@@ -30,6 +31,7 @@
   border: 1px solid rgba(49, 46, 46, 0.339);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
 }
+
 .about-me-icon {
     font-size: 2rem;
     margin-left: 1rem;
@@ -38,53 +40,4 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.about-me-education,
-.about-me-experience {
-  /* margin-top: 3rem; */
-}
-
-.wave {
-  font-size: 2rem;
-}
-
-.skill-set-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5rem;
-}
-.skill-set-header {
-    margin-bottom: 3rem;
-}
-.skill-set-list{
-    display: flex;
-    gap: 2rem;
-}
-li {
-  list-style: none;
-}
-.skill-set-sections {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.skill-set-picture {
-  width: 7rem;
-  height: 7rem;
-  padding: 1rem;
-  border-radius: 50%;
-}
-
-.dark-mode .skill-set-picture {
-  border: 1px solid rgba(189, 189, 189, 0.349);
-  box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
-}
-
-.light-mode .skill-set-picture {
-  border: 1px solid rgba(49, 46, 46, 0.339);
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
 }
