@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jl-portfolio/static/css/main.c5ad0c76.css",
-    "main.js": "/jl-portfolio/static/js/main.d1ea2592.js",
+    "main.css": "/jl-portfolio/static/css/main.1482a952.css",
+    "main.js": "/jl-portfolio/static/js/main.ea9269fe.js",
     "static/media/Cadent_Justin.mp4": "/jl-portfolio/static/media/Cadent_Justin.3da5716dd6aa65ac2b0d.mp4",
     "static/media/linkedin.jpg": "/jl-portfolio/static/media/linkedin.c3fcb1cf4dc1a60c3264.jpg",
     "static/media/Justin_Lam_Resume.pdf": "/jl-portfolio/static/media/Justin_Lam_Resume.5e29e2785504321a6afd.pdf",
@@ -20,11 +20,11 @@
     "static/media/html.svg": "/jl-portfolio/static/media/html.51305ec564cee03372ec0fdaaa77854d.svg",
     "static/media/c.svg": "/jl-portfolio/static/media/c.4d943a0cb2aae0c439363d64b64f92e7.svg",
     "index.html": "/jl-portfolio/index.html",
-    "main.c5ad0c76.css.map": "/jl-portfolio/static/css/main.c5ad0c76.css.map",
-    "main.d1ea2592.js.map": "/jl-portfolio/static/js/main.d1ea2592.js.map"
+    "main.1482a952.css.map": "/jl-portfolio/static/css/main.1482a952.css.map",
+    "main.ea9269fe.js.map": "/jl-portfolio/static/js/main.ea9269fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5ad0c76.css",
-    "static/js/main.d1ea2592.js"
+    "static/css/main.1482a952.css",
+    "static/js/main.ea9269fe.js"
   ]
 }
