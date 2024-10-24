@@ -39,6 +39,7 @@
   padding: 2rem;
   border-radius: 20px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .dark-mode .projects-link-style {
@@ -52,6 +53,11 @@
   background-color: #ffffff;
   border: 1px solid rgba(49, 46, 46, 0.339);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
+  color: #000000;
+}
+
+.projects-link-style:hover {
+  background-color: rgb(6, 129, 170);
   color: #000000;
 }
 
@@ -80,7 +86,6 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.37);
   color: #000000;
 }
-
 
 .project-header {
   font-size: 3rem;
@@ -117,6 +122,7 @@
   cursor: pointer;
   padding: 20px;
 }
+
 .dark-mode .slider-button {
   background-color: #121212;
   border: 1px solid rgba(189, 189, 189, 0.349);
@@ -138,6 +144,7 @@
 .right-button {
   margin-left: 10px;
 }
+
 .back-to-project-button {
   border-radius: 20px;
   transition: background-color 0.3s, color 0.3s;
@@ -145,6 +152,7 @@
   margin-top: auto;
   font-size: 1.5rem;
   padding: 0.5rem 1.5rem;
+  cursor: pointer;
 }
 
 .dark-mode .back-to-project-button {
