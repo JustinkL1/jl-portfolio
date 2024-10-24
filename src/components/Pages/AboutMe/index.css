@@ -27,21 +27,28 @@
   gap: 1rem;
   margin-top: 2.5rem;
   padding: 1.5rem;
+  border-radius: 20px;
 }
 .dark-mode .about-me-sections {
+  background-color: #121212;
   border: 1px solid rgba(189, 189, 189, 0.349);
   box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
+  color: #ffffff;
 }
 
 .light-mode .about-me-sections {
+  background-color: #ffffff;
   border: 1px solid rgba(49, 46, 46, 0.339);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
+  color: #000000;
 }
+
 
 .about-me-icon {
     font-size: 2rem;
     margin-left: 1rem;
 }
+
 .about-me-texts {
   display: flex;
   flex-direction: column;

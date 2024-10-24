@@ -27,11 +27,15 @@ li {
 }
 
 .dark-mode .skill-set-picture {
+  background-color: #121212;
   border: 1px solid rgba(189, 189, 189, 0.349);
   box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
+  color: #ffffff;
 }
 
 .light-mode .skill-set-picture {
+  background-color: #ffffff;
   border: 1px solid rgba(49, 46, 46, 0.339);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
+  color: #000000;
 }

@@ -1,35 +1,28 @@
 .home-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 70px;
+  padding: 50px;
+  border-radius: 20px;
 }
 
-.home-welcome-message{
-    font-size: 4rem;
+.home-welcome-name {
+  font-size: 3rem;
 }
 
-.home-welcome-name{
-    font-size: 3rem;
+.dark-mode .home-container {
+  background-color: #121212;
+  border: 1px solid rgba(189, 189, 189, 0.349);
+  box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
+  color: #ffffff;
 }
 
-.home-message{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    margin: 70px;
-    padding: 50px;
-    
+.light-mode .home-container {
+  background-color: #ffffff;
+  border: 1px solid rgba(49, 46, 46, 0.339);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
+  color: #000000;
 }
-.dark-mode .home-message {
-    border: 1px solid rgba(189, 189, 189, 0.349);
-    box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
-  }
-  
-  .light-mode .home-message {
-    border: 1px solid rgba(49, 46, 46, 0.339);
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
-  }

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
+:root {
+  --background-image-light: url('./assets/background_light.png');
+  --background-image-dark: url('./assets/background_dark.png');
+  /* --background-color-light:  */
+}
 body, html{
   margin: 0;
   padding: 0;
@@ -10,7 +15,18 @@ body, html{
 }
 
 body {
+  background-image: var(--background-image-light);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  transition: background-image 0.5s ease;
   transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-image: var(--background-image-dark);
 }
 
 .dark-mode {
@@ -41,15 +57,7 @@ body {
   z-index: 10;
   transition: background-color 0.3s, color 0.3s;
 }
-.dark-mode .app-left {
-  background-color: #121212;
-  color: #ffffff;
-}
 
-.light-mode .app-left{
-  background-color: #ffffff;
-  color: #000000;
-}
 .app-right {
   display: flex;
   flex-direction: column;
@@ -64,15 +72,6 @@ body {
   z-index: 10;
   transition: background-color 0.3s, color 0.3s;
   margin-right: 3rem;
-}
-.dark-mode .navbar {
-  background-color: #121212;
-  color: #ffffff;
-}
-
-.light-mode .navbar{
-  background-color: #ffffff;
-  color: #000000;
 }
 
 .app-main {

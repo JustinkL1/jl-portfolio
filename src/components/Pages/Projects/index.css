@@ -37,15 +37,19 @@
   width: 10rem;
   height: 10rem;
   padding: 2rem;
+  border-radius: 20px;
   text-decoration: none;
 }
+
 .dark-mode .projects-link-style {
+  background-color: #121212;
   border: 1px solid rgba(189, 189, 189, 0.349);
   box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
   color: #ffffff;
 }
 
-.light-mode .projects-link-style {
+.light-mode .projects-link-style{
+  background-color: #ffffff;
   border: 1px solid rgba(49, 46, 46, 0.339);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
   color: #000000;
@@ -61,16 +65,22 @@
   padding: 30px;
   overflow: scroll;
   margin-bottom: 50px;
+  border-radius: 20px;
 }
 .dark-mode .project-container {
+  background-color: #121212;
   border: 1px solid rgba(189, 189, 189, 0.349);
-  box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
+  box-shadow: 0 4px 4px 0 rgba(114, 113, 113, 0.544);
+  color: #ffffff;
 }
 
 .light-mode .project-container {
+  background-color: #ffffff;
   border: 1px solid rgba(49, 46, 46, 0.339);
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.37);
+  color: #000000;
 }
+
 
 .project-header {
   font-size: 3rem;
