@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
 .sidebar-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 4rem;
+  padding: 1rem 2rem;
   margin: 1rem;
   border-radius: 20px;
+  /* font-weight: bold; */
 }
 
-.dark-mode .sidebar-container{
+.dark-mode .sidebar-container {
   border: 1px solid rgba(189, 189, 189, 0.349);
   box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
 }
@@ -18,13 +21,13 @@
 }
 
 .sidebar-header {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .dark-mode .sidebar-header {
   border-bottom: 0.1rem solid #ffffff;
 }
 
-.light-mode .sidebar-header{
+.light-mode .sidebar-header {
   border-bottom: 0.1rem solid #000000;
 }
 
@@ -38,13 +41,14 @@
   box-shadow: 0 5px 15px 0 rgba(202, 199, 199, 0.544);
 }
 
-.light-mode .profile-pic{
+.light-mode .profile-pic {
   border: 1px solid rgba(49, 46, 46, 0.339);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
 }
 
 .name {
-  margin-top: 3rem;
+  margin-top: 1rem;
+  font-size: 2.5rem;
   display: flex;
   justify-content: center;
 }
@@ -53,7 +57,7 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .icon-link {
@@ -61,8 +65,8 @@
   justify-content: center;
   align-items: center;
   background: var(--color);
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
 }
 .icon-link:has(.linkedin) {
@@ -74,20 +78,23 @@
 
 .icon-link > .icon {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .personal-information {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .personal-information-icon {
   padding: 1rem;
   border-radius: 25%;
+  width: 20px;
+  height: 20px;
 }
-.dark-mode .personal-information-icon  {
+.dark-mode .personal-information-icon {
   border: 0.1rem solid rgba(189, 189, 189, 0.349);
 }
 
@@ -96,7 +103,7 @@
 }
 
 .personal-information-sections {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: flex;
   gap: 1rem;
 }
@@ -105,14 +112,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.personal-information-phone-title {
-}
-
-.personal-information-email-title {
-}
-
-.personal-information-email-title {
-}
 
 .button-group {
   display: flex;
@@ -120,7 +119,7 @@
   align-items: center;
   gap: 1rem;
   bottom: 0;
-  margin-top: 4rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -129,6 +128,7 @@
   border-radius: 20px;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .dark-mode .button-sidebar {

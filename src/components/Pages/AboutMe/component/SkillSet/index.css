@@ -4,9 +4,7 @@
     align-items: center;
     margin-top: 5rem;
 }
-.skill-set-header {
-    margin-bottom: 3rem;
-}
+
 .skill-set-list{
     display: flex;
     gap: 2rem;

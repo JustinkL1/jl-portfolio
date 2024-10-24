@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 import JavaPic from "../../../../../assets/skills/java.svg";
 import ReactPic from "../../../../../assets/skills/react.svg";
 import JavascriptPic from "../../../../../assets/skills/javascript.svg";
@@ -14,7 +16,10 @@ import "./index.css";
 function SkillSet() {
   return (
     <div className="skill-set-container">
-      <span className="skill-set-header">Technical Skills</span>
+      <span className="skill-set-header">
+        Technical Skills
+        <FontAwesomeIcon icon={faCode} className="about-me-icon" />
+      </span>
       <ul className="skill-set-list">
         <li>
           <div className="skill-set-sections">

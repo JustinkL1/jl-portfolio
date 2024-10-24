@@ -3,6 +3,8 @@ import CadentProject from "./components/Cadent";
 import IQuestProject from "./components/IQuest";
 import EsurgiProject from "./components/Esurgi";
 import PurdueHubProject from "./components/PurdueHub";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFolder } from "@fortawesome/free-solid-svg-icons";
 
 import "./index.css";
 
@@ -34,15 +36,19 @@ function Projects() {
         <div>
           <PurdueHubProject onBack={handleBackToProjects} />
         </div>
-      ): (
+      ) : (
         <div className="projects-container">
-          <span className="projects-header">Projects</span>
+          <span className="projects-header">
+            Projects
+            <FontAwesomeIcon icon={faFolder} className="project-icon" />
+          </span>
+
           <div className="projects-links">
             <span
               className="projects-link-style"
               onClick={() => handleShowProject("cadent")}
             >
-              <span className="project-link-title">Cadent Project</span>
+              <span className="project-link-title">Cadent</span>
             </span>
             <span
               className="projects-link-style"
@@ -54,7 +60,7 @@ function Projects() {
               className="projects-link-style"
               onClick={() => handleShowProject("esurgi")}
             >
-              <span className="project-link-title">Esurgi Project</span>
+              <span className="project-link-title">Esurgi</span>
             </span>
             <span
               className="projects-link-style"
