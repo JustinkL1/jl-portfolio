@@ -1,5 +1,5 @@
 import Education from "./component/Education";
-import Experience from "./component/Experience";
+import Employment from "./component/Employment";
 import SkillSet from "./component/SkillSet";
 import "./index.css";
 
@@ -7,7 +7,7 @@ function AboutMe() {
   return (
     <div className="about-me-container">
       <div className="about-me-main">
-        <Experience />
+        <Employment />
         <Education />
       </div>
       <SkillSet />

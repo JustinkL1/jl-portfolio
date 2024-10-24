@@ -16,7 +16,7 @@ import "./index.css";
 function SkillSet() {
   return (
     <div className="skill-set-container">
-      <span className="skill-set-header">
+      <span className="about-me-header">
         Technical Skills
         <FontAwesomeIcon icon={faCode} className="about-me-icon" />
       </span>

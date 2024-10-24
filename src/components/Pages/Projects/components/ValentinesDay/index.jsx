@@ -3,7 +3,7 @@ import video from "../../../../../assets/projects/valentine_demo.mov";
 function ValentinesDay({ onBack }) {
   return (
     <div className="project-container">
-      <span className="project-header">Valentine's Day</span>
+      <span className="project-header">Valentine's Day Application</span>
       <br />
       <span className="project-description">
         Inspired by an Instagram reel

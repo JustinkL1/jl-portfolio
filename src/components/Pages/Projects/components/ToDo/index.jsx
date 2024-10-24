@@ -15,8 +15,12 @@ function ToDo({ onBack }) {
       </span>
       <br />
       <video src={video} className="project-video" controls />
-      Please note that from 6:33-7:58 there is a momentary silence as the
-      application is being built in Amplify, so please feel free to skip ahead.
+      <div className="todo-disclaimer">
+        Please note that from 6:33-7:58 there is a momentary silence as the
+        application is being built in Amplify, so please feel free to skip
+        ahead.
+      </div>
+
       <br />
       <button className="back-to-project-button" onClick={onBack}>
         Back to Projects

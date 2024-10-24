@@ -21,7 +21,7 @@ function Projects() {
     setActiveProject(null);
   };
   return (
-    <div>
+    <div className="project-page-container">
       {activeProject === "cadent" ? (
         <div>
           <CadentProject onBack={handleBackToProjects} />
@@ -50,7 +50,7 @@ function Projects() {
         <div className="projects-container">
           <span className="projects-header">
             Projects
-            <FontAwesomeIcon icon={faFolder} className="project-icon" />
+            <FontAwesomeIcon icon={faFolder} className="projects-icon" />
           </span>
 
           <div className="projects-links">

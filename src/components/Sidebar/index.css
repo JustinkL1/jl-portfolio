@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 2rem 1rem;
   margin: 1rem;
   border-radius: 20px;
   /* font-weight: bold; */
@@ -109,8 +109,8 @@
 }
 .personal-information-texts {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 .button-group {
@@ -124,11 +124,12 @@
 }
 
 .button-sidebar {
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 20px;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
   font-family: "Titillium Web", sans-serif;
+  font-size: 1.25rem;
 }
 
 .dark-mode .button-sidebar {
