@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/jl-portfolio/static/css/main.41df9805.css",
-    "main.js": "/jl-portfolio/static/js/main.9f9662a6.js",
+    "main.css": "/jl-portfolio/static/css/main.3bf8ddea.css",
+    "main.js": "/jl-portfolio/static/js/main.c7b3c789.js",
     "static/media/Cadent_Justin.mp4": "/jl-portfolio/static/media/Cadent_Justin.3da5716dd6aa65ac2b0d.mp4",
     "static/media/valentine_demo.mov": "/jl-portfolio/static/media/valentine_demo.a7b1b1fc33b11967d2b8.mov",
     "static/media/ToDoApp.mp4": "/jl-portfolio/static/media/ToDoApp.6f47da2c6336ad5e4329.mp4",
     "static/media/divide.png": "/jl-portfolio/static/media/divide.7eeb5bc9d81b7c7a441f.png",
     "static/media/add.png": "/jl-portfolio/static/media/add.b632a2a8d9fa49ce2c28.png",
     "static/media/time.png": "/jl-portfolio/static/media/time.d3782fd3a63f05a4e9ba.png",
+    "static/media/background_light.png": "/jl-portfolio/static/media/background_light.15535097f5f537ced7e8.png",
     "static/media/linkedin.jpg": "/jl-portfolio/static/media/linkedin.c3fcb1cf4dc1a60c3264.jpg",
     "static/media/Justin_Lam_Resume.pdf": "/jl-portfolio/static/media/Justin_Lam_Resume.5e29e2785504321a6afd.pdf",
+    "static/media/background_dark.png": "/jl-portfolio/static/media/background_dark.e58a4a46cd63a1de8f8d.png",
     "static/media/cadent.png": "/jl-portfolio/static/media/cadent.509ab4c2c8841035dfea.png",
     "static/media/esurgi.png": "/jl-portfolio/static/media/esurgi.754a8a0135e156298e7e.png",
     "static/media/jhu.png": "/jl-portfolio/static/media/jhu.097f5e41c87ebe15a702.png",
@@ -25,11 +27,11 @@
     "static/media/html.svg": "/jl-portfolio/static/media/html.51305ec564cee03372ec0fdaaa77854d.svg",
     "static/media/c.svg": "/jl-portfolio/static/media/c.4d943a0cb2aae0c439363d64b64f92e7.svg",
     "index.html": "/jl-portfolio/index.html",
-    "main.41df9805.css.map": "/jl-portfolio/static/css/main.41df9805.css.map",
-    "main.9f9662a6.js.map": "/jl-portfolio/static/js/main.9f9662a6.js.map"
+    "main.3bf8ddea.css.map": "/jl-portfolio/static/css/main.3bf8ddea.css.map",
+    "main.c7b3c789.js.map": "/jl-portfolio/static/js/main.c7b3c789.js.map"
   },
   "entrypoints": [
-    "static/css/main.41df9805.css",
-    "static/js/main.9f9662a6.js"
+    "static/css/main.3bf8ddea.css",
+    "static/js/main.c7b3c789.js"
   ]
 }
