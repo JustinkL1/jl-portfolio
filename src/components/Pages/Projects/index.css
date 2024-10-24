@@ -17,7 +17,13 @@
 
 .projects-links {
   display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.projects-links-group {
+  display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 3rem;
 }
 .projects-link-style {
@@ -60,6 +66,7 @@
   border: 1px solid rgba(49, 46, 46, 0.339);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.741);
 }
+
 .project-header {
   font-size: 2rem;
 }
@@ -67,6 +74,39 @@
   font-size: 1rem;
 }
 
+.project-video {
+  width: 800px;
+  height: 400px;
+  margin-top: 2rem;
+}
+
+.slider-image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image{
+  width: 600px;
+  height: 400px;
+  margin-top: 2rem;
+
+}
+.slider-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+}
+.left-button {
+  margin-right: 10px;
+}
+
+.right-button {
+  margin-left: 10px;
+}
 .back-to-project-button {
   border-radius: 20px;
   transition: background-color 0.3s, color 0.3s;
