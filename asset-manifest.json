@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/jl-portfolio/static/css/main.6b189e7f.css",
-    "main.js": "/jl-portfolio/static/js/main.c0bea9ed.js",
+    "main.css": "/jl-portfolio/static/css/main.2de374e8.css",
+    "main.js": "/jl-portfolio/static/js/main.25b2b748.js",
     "static/media/Cadent_Justin.mp4": "/jl-portfolio/static/media/Cadent_Justin.3da5716dd6aa65ac2b0d.mp4",
+    "static/media/valentine_demo.mov": "/jl-portfolio/static/media/valentine_demo.a7b1b1fc33b11967d2b8.mov",
+    "static/media/ToDoApp.mp4": "/jl-portfolio/static/media/ToDoApp.6f47da2c6336ad5e4329.mp4",
+    "static/media/divide.png": "/jl-portfolio/static/media/divide.7eeb5bc9d81b7c7a441f.png",
+    "static/media/add.png": "/jl-portfolio/static/media/add.b632a2a8d9fa49ce2c28.png",
+    "static/media/time.png": "/jl-portfolio/static/media/time.d3782fd3a63f05a4e9ba.png",
     "static/media/linkedin.jpg": "/jl-portfolio/static/media/linkedin.c3fcb1cf4dc1a60c3264.jpg",
     "static/media/Justin_Lam_Resume.pdf": "/jl-portfolio/static/media/Justin_Lam_Resume.5e29e2785504321a6afd.pdf",
     "static/media/cadent.png": "/jl-portfolio/static/media/cadent.509ab4c2c8841035dfea.png",
@@ -20,11 +25,11 @@
     "static/media/html.svg": "/jl-portfolio/static/media/html.51305ec564cee03372ec0fdaaa77854d.svg",
     "static/media/c.svg": "/jl-portfolio/static/media/c.4d943a0cb2aae0c439363d64b64f92e7.svg",
     "index.html": "/jl-portfolio/index.html",
-    "main.6b189e7f.css.map": "/jl-portfolio/static/css/main.6b189e7f.css.map",
-    "main.c0bea9ed.js.map": "/jl-portfolio/static/js/main.c0bea9ed.js.map"
+    "main.2de374e8.css.map": "/jl-portfolio/static/css/main.2de374e8.css.map",
+    "main.25b2b748.js.map": "/jl-portfolio/static/js/main.25b2b748.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b189e7f.css",
-    "static/js/main.c0bea9ed.js"
+    "static/css/main.2de374e8.css",
+    "static/js/main.25b2b748.js"
   ]
 }
