@@ -1,4 +1,5 @@
 import { HashRouter as Router } from "react-router-dom";
+import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import HomePage from "./components/Pages/Home";
@@ -8,6 +9,14 @@ import DarkMode from "./components/DarkMode";
 import "./App.css";
 
 function App() {
+  useEffect(() => {
+    const savedTheme = JSON.parse(localStorage.getItem("darkMode"));
+    if (savedTheme) {
+      document.body.classList.add(savedTheme ? "dark-mode" : "light-mode");
+    } else {
+      document.body.classList.add("light-mode");
+    }
+  }, []);
   return (
     <Router>
       <div className="app-container">
