@@ -2,17 +2,13 @@ import { useState, useEffect } from "react";
 import "./index.css";
 
 function DarkMode() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    return JSON.parse(localStorage.getItem("darkMode")) || false;
+  });
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("darkMode");
-    if (savedTheme) {
-      setDarkMode(JSON.parse(savedTheme));
-      document.body.classList.add(
-        savedTheme === "true" ? "dark-mode" : "light-mode"
-      );
-    }
-  }, []);
+    document.body.classList.add(darkMode ? "dark-mode" : "light-mode");
+  }, [darkMode]);
 
   const toggleDarkMode = () => {
     setDarkMode((prevMode) => {
@@ -23,6 +19,7 @@ function DarkMode() {
       return newMode;
     });
   };
+  
   return (
     <button className="dark-mode-button" onClick={toggleDarkMode}>
       {darkMode ? "🌙" : "🔆"}
