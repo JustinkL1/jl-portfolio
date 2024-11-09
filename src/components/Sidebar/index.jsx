@@ -5,8 +5,8 @@ import {
   faEnvelope,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
-import linkedinProfilePic from "../../assets/linkedin.jpg";
-import justinResume from "../../assets/Justin_Lam_Resume.pdf";
+import linkedinProfilePic from "../../assets/sidebar/linkedin.jpg";
+import justinResume from "../../assets/sidebar/Justin_Lam_Resume.pdf";
 import "./index.css";
 
 function Sidebar() {
