@@ -14,16 +14,6 @@ function Employment() {
       </span>
 
       <div className="about-me-sections">
-        <img src={EsurgiPic} alt="Esurgi logo" className="about-me-pic" />
-        <div className="about-me-texts">
-          <span className="employment-company">Esurgi</span>
-          <span className="employment-role">
-            Role: Software Engineer Intern
-          </span>
-          <span className="employment-year">May 2024 - Present</span>
-        </div>
-      </div>
-      <div className="about-me-sections">
         <img src={JhuPic} alt="Jhu logo" className="about-me-pic" />
         <div className="about-me-texts">
           <span className="employment-company">
@@ -33,6 +23,18 @@ function Employment() {
           <span className="employment-year">January 2022 - Present</span>
         </div>
       </div>
+
+      <div className="about-me-sections">
+        <img src={EsurgiPic} alt="Esurgi logo" className="about-me-pic" />
+        <div className="about-me-texts">
+          <span className="employment-company">Esurgi</span>
+          <span className="employment-role">
+            Role: Software Engineer Intern
+          </span>
+          <span className="employment-year">May 2024 - November 2024</span>
+        </div>
+      </div>
+      
       <div className="about-me-sections">
         <img src={CadentPic} alt="Cadent logo" className="about-me-pic" />
         <div className="about-me-texts">
