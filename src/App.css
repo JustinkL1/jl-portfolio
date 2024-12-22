@@ -49,7 +49,6 @@ body.dark-mode {
 .app-left {
   min-width: 300px; 
   flex-shrink: 0; 
-  padding-top: 1rem;
   margin-left: 2rem;
   position: fixed;
   overflow: hidden;
@@ -96,4 +95,12 @@ section {
 
 html {
   scroll-behavior: smooth;
+}
+
+.app-logo {
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  margin: 2rem;
 }

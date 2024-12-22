@@ -5,6 +5,7 @@ import HomePage from "./components/Pages/Home";
 import AboutMePage from "./components/Pages/AboutMe";
 import ProjectsPage from "./components/Pages/Projects";
 import DarkMode from "./components/DarkMode";
+import logoPic from "./assets/logo/jl_logo.png";
 import "./App.css";
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
         </div>
         <div className="navbar">
           <Navbar />
+        </div>
+        <div className="app-logo">
+          <img src={logoPic} alt="Justin's logo" className="app-logo" />
         </div>
       </div>
     </Router>
