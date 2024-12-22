@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  cursor: pointer;
 }
 
 
@@ -46,6 +45,7 @@
   padding: 2rem;
   display: inline-block;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .dark-mode .active-link {

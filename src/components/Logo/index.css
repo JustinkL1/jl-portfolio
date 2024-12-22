@@ -1,0 +1,9 @@
+.app-logo {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    margin: 2rem;
+    z-index: 11;
+    cursor: pointer;
+  }
